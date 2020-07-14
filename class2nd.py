@@ -31,7 +31,7 @@
 # if name  == "Jawwad":
 #     print("Sir",name)
 # elif name == "Hafsa":
-#     print("rotoo", name)
+#     print( name)
 # elif name == "yusra":
 #     print("Hello "+ name)
 # else:
