@@ -61,18 +61,77 @@ cus1['Mobile Number']  =  '0311-xxxxxxx'
 # for a ,b in cus1.items():
 #     print(a," : ","........") 
 
-myList = [
-    {
-        "customer id": 1,
-        "first name":"Ann",
-        "last name": "Sattermyer",
-        "address": "PO Box 1145",
-    },
-    {
-        "customer id": 2,
-        "first name":"Jill",
-        "last name": "Somers",
-        "address": "3 Main St.",
-    }
-]
-print(myList[0]['first name'])
+# myList = [
+#     {
+#         "customer id": 1,
+#         "first name":"Ann",
+#         "last name": "Sattermyer",
+#         "address": "PO Box 1145",
+#     },
+#     {
+#         "customer id": 2,
+#         "first name":"Jill",
+#         "last name": "Somers",
+#         "address": "3 Main St.",
+#     }
+# ]
+# for a in myList:
+#     print(a.values())
+
+
+# student = [
+#     {
+#         "student id": 1,
+#         "first name":"Hafsa",
+#         "last name": "Ahmed",
+#         "address": "3 Main St.",
+#     },
+#     {
+#         "student id": 2,
+#         "first name":"Yusra",
+#         "last name": "Muqadas",
+#         "address": "3 Main St.",
+#     },
+#     {
+#         "student id": 3,
+#         "first name":"Hareem",
+#         "last name": "Amjad",
+#         "address": "3 Main St.",
+#     }
+# ]
+# # for i in student:
+# #     for key in i.keys():
+# #         print(key, ":", i[key])
+# #     print()
+
+# # for i in student:
+# #     for value in i.values():
+# #         print(value)
+# #     print()
+
+# # for i in student:
+# #     for key, value in i.items():
+# #         print(key, " : ", value)
+# #     print()
+
+# # print(student[0]["first name"][0])
+
+# customer = [
+#     {
+#         "name" : 'Jawwad'
+#     },
+#     {
+#         "name" : 'Waqas'
+#     },
+#     {
+#         "name" : 'Salman'
+#     }
+# ]
+# print("Customer i have: ", len(customer))
+# name = input("Please enter the name of new customer: ")
+# newCustomer = {
+#     "name": name
+#     }
+# customer.append(newCustomer)
+
+# print("\nCustomer now i have: ", len(customer))
